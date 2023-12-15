@@ -6,7 +6,7 @@ metadata:
     app: hello
 spec:
   rules:
-    - host: INGRESS-HOST
+    - host: hello.example.com
       http:
         paths:
           - path: /
